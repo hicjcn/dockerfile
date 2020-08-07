@@ -4,7 +4,7 @@ MAINTAINER hicjcn hicjcn@gmail
 
 WORKDIR /usr/share/nginx/html/
 
-ADD ./nginx/default.conf /etc/nginx/conf.d/
+ADD ./default.conf /etc/nginx/conf.d/
 
 EXPOSE 80
 
