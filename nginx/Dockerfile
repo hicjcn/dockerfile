@@ -1,6 +1,6 @@
 FROM nginx:1.19.1
 
-MAINTAINER hicjcn hicjcn@gmail
+MAINTAINER hicjcn hicjcn@gmail.com
 
 WORKDIR /usr/share/nginx/html/
 
