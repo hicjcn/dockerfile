@@ -4,7 +4,7 @@ MAINTAINER hicjcn hicjcn@gmail
 
 WORKDIR /usr/share/logstash/config/
 
-ADD ./nginx.conf /usr/share/logstash/config/
+ADD ./logstash.conf /usr/share/logstash/config/
 
 CMD ["logstash"]
 
