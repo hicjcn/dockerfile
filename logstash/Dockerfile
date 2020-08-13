@@ -4,7 +4,9 @@ MAINTAINER hicjcn hicjcn@gmail
 
 WORKDIR /usr/share/logstash/config/
 
+RUN rm logstash-sample.conf
+
 ADD ./logstash.conf /usr/share/logstash/config/
 
-CMD ["logstash", "-f", "logstash.conf"]
+CMD ["logstash"]
 
