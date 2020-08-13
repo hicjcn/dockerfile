@@ -4,7 +4,7 @@ MAINTAINER hicjcn hicjcn@gmail
 
 WORKDIR /usr/share/logstash/config/
 
-RUN rm logstash.conf logstash-sample.conf logstash.yml
+RUN rm /usr/share/logstash/config/logstash.conf /usr/share/logstash/config/logstash-sample.conf /usr/share/logstash/config/logstash.yml
 
 ADD ./logstash.conf /usr/share/logstash/pipeline/
 
