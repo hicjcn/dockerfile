@@ -6,5 +6,5 @@ WORKDIR /usr/share/logstash/config/
 
 ADD ./logstash.conf /usr/share/logstash/config/
 
-CMD ["logstash"]
+CMD ["logstash", "-f", "logstash.conf"]
 
