@@ -2,11 +2,9 @@ FROM logstash:7.8.1
 
 MAINTAINER hicjcn hicjcn@gmail
 
-WORKDIR /usr/share/logstash/config/
+WORKDIR /usr/share/logstash/pipeline/
 
-RUN rm logstash-sample.conf
-
-ADD ./logstash.conf /usr/share/logstash/config/
+ADD ./logstash.conf /usr/share/logstash/pipeline/
 
 CMD ["logstash"]
 
